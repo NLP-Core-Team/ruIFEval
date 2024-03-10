@@ -17,6 +17,6 @@
 python -m evaluation_main \
   --input_data=./data/ruIFEval.jsonl \
   --input_response_data=./data/response_gemini_pro.jsonl \
-  --output_dir=./data/results/
+  --output_dir=./data/
 
 exit 0
