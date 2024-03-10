@@ -1,6 +1,6 @@
 # ruIFEval: Instruction Following Eval in Russian
 
-This repository with source code and data was based on the original [article](arxiv.org/abs/2311.07911) and it was adapted aking into account the peculiarities of the Russian language.
+This repository with source code and data was based on the original [article](https://arxiv.org/abs/2311.07911) and it was adapted aking into account the peculiarities of the Russian language.
 
 ## Install
 
