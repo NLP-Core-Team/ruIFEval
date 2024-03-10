@@ -13,8 +13,7 @@ pip3 install -r requirements.txt
 ## How to run
 
 You need to create a jsonl file with two entries: prompt and response.
-Then, call `evaluation_main` from the parent folder of
-instruction_following_eval. For example:
+Then, call `evaluation_main`. For example:
 
 ```bash
 # Content of `--input_response_data` should be like:
