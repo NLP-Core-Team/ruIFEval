@@ -10,6 +10,9 @@ Please make sure that all required python packages are installed via:
 pip3 install -r requirements.txt
 ```
 
+> [!NOTE]
+> The release version of the dataset has changed to ruIFEval_v0.1. Some prompts have been improved in this version.
+
 ## How to run
 
 You need to create a jsonl file with two entries: prompt and response.
@@ -21,7 +24,7 @@ Then, call `evaluation_main`. For example:
 # {"prompt": "Я планирую отправиться в путешествие ...", "response": "PUT YOUR MODEL RESPONSE HERE"}
 # ...
 python3 -m evaluation_main \
-  --input_data=./data/ruIFEval.jsonl \
-  --input_response_data=./data/response_gemini_pro.jsonl \
+  --input_data=./data/ruIFEval_v0.1.jsonl \
+  --input_response_data=./data/response_gemini_pro_v0.1.jsonl \
   --output_dir=./data/
 ```
